@@ -13,6 +13,51 @@ npm start
 ```
 ### End points of this project 
 
+#### http://localhost:PORT/api/trips
+
+method: POST
+
+Role: create Trip
+
+fileds: 
+
+ depart_city 
+ arrive_city 
+ depart_date 
+ arrive_date
+ price
+
+#### http://localhost:PORT/api/trips
+
+method: GET
+
+Role: Read Trips
+
+#### http://localhost:PORT/api/trips/id
+
+method: PUT
+
+Role: update Trip
+
+fileds: 
+
+ id
+ depart_city 
+ arrive_city 
+ depart_date 
+ arrive_date
+ price
+
+
+ #### http://localhost:PORT/api/trips/id
+
+method: DELETE
+
+Role: delete Trip
+
+fileds: 
+
+ id
 
 
 
